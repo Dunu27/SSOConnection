@@ -1,0 +1,33 @@
+[34172:43252:0125/145947.490:WARNING:chrome_main_delegate.cc(667)] This is Chrome version 120.0.6099.110 (not a warning)
+[34172:43252:0125/145947.492:WARNING:chrome_command_line_pref_store.cc(121)] Additional command-line proxy switches specified when --no-proxy-server was also specified.
+[34172:43252:0125/145947.492:WARNING:chrome_command_line_pref_store.cc(121)] Additional command-line proxy switches specified when --no-proxy-server was also specified.
+[34172:43252:0125/145947.551:INFO:policy_logger.cc(144)] :components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc(168) Starting CBCM Controller Initialization
+[34172:43252:0125/145947.552:INFO:policy_logger.cc(144)] :components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc(196) No machine level policy manager exists.
+[34172:43252:0125/145947.557:WARNING:chrome_command_line_pref_store.cc(121)] Additional command-line proxy switches specified when --no-proxy-server was also specified.
+[34172:43252:0125/145950.379:INFO:CONSOLE(6)] "Uncaught Error: Bootstrap dropdown require Popper.js (https://popper.js.org)", source: https://chercher.tech/vendor/bootstrap/js/bootstrap.min.js (6)
+[34172:43252:0125/145950.412:INFO:CONSOLE(28)] "Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')", source: https://chercher.tech/js/index8.js (28)
+[34172:43252:0125/145950.445:INFO:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected end of JSON input", source: https://chercher.tech/practice/frames-example-selenium-webdriver (1)
+[34172:43252:0125/145950.450:INFO:CONSOLE(10)] "Uncaught TypeError: Cannot read properties of null (reading 'setAttribute')", source: https://chercher.tech/js/index8.js (10)
+[34172:43252:0125/145950.837:INFO:CONSOLE(1533)] "[object HTMLIFrameElement]", source:  (1533)
+[34172:43252:0125/145950.875:INFO:CONSOLE(1533)] "[object HTMLIFrameElement]", source:  (1533)
+[34172:43252:0125/145951.442:INFO:CONSOLE(3)] "adding", source: https://chercher.tech/js/sidebar-ads8.js (3)
+[34172:43252:0125/145952.441:INFO:CONSOLE(3)] "adding", source: https://chercher.tech/js/sidebar-ads8.js (3)
+[34172:43252:0125/145953.078:INFO:CONSOLE(1533)] "[object HTMLIFrameElement]", source:  (1533)
+[34172:43252:0125/145953.108:INFO:CONSOLE(1533)] "[object HTMLIFrameElement]", source:  (1533)
+[34172:43252:0125/145953.291:INFO:CONSOLE(1533)] "[object HTMLInputElement]", source:  (1533)
+[34172:43252:0125/145953.324:INFO:CONSOLE(1533)] "[object HTMLInputElement]", source:  (1533)
+[34172:43252:0125/145953.441:INFO:CONSOLE(3)] "adding", source: https://chercher.tech/js/sidebar-ads8.js (3)
+[34172:43252:0125/145953.548:INFO:CONSOLE(1533)] "[object HTMLInputElement]", source:  (1533)
+[34172:43252:0125/145953.595:INFO:CONSOLE(1533)] "[object HTMLInputElement]", source:  (1533)
+[34172:43252:0125/145953.659:INFO:CONSOLE(1533)] "[object HTMLInputElement]", source:  (1533)
+[34172:43252:0125/145953.707:INFO:CONSOLE(1533)] "[object HTMLInputElement]", source:  (1533)
+[34172:43252:0125/145953.761:INFO:CONSOLE(1533)] "[object HTMLInputElement]", source:  (1533)
+[34172:43252:0125/145953.829:INFO:CONSOLE(1533)] "[object HTMLInputElement]", source:  (1533)
+[34172:43252:0125/145953.873:INFO:CONSOLE(1533)] "[object HTMLInputElement]", source:  (1533)
+[34172:43252:0125/145953.918:INFO:CONSOLE(1533)] "[object HTMLInputElement]", source:  (1533)
+[34172:43252:0125/145953.974:INFO:CONSOLE(1533)] "[object HTMLInputElement]", source:  (1533)
+[34172:43252:0125/145954.024:INFO:CONSOLE(1533)] "[object HTMLInputElement]", source:  (1533)
+[34172:43252:0125/145954.153:INFO:CONSOLE(1533)] "[object HTMLInputElement]", source:  (1533)
+[34172:43252:0125/145954.174:INFO:CONSOLE(1533)] "[object HTMLInputElement]", source:  (1533)
+[34172:43252:0125/145954.258:INFO:CONSOLE(1533)] "[object HTMLInputElement]", source:  (1533)
+[34172:43252:0125/145954.444:INFO:CONSOLE(3)] "adding", source: https://chercher.tech/js/sidebar-ads8.js (3)

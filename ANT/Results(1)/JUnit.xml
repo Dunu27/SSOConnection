@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SSOCOnnection/tests" tests="2" failures="1" skipped="0" hostname="ibm-aswinsamal" time="11.214" timestamp="Thu Jan 25 14:59:44 IST 2024">
+	<properties>
+		<property name="excludeCallableTestCases" value="false"/>
+		<property name="testEnvironment" value=""/>
+		<property name="pluginOutputLevel" value="WARNING"/>
+		<property name="projectPath" value=".."/>
+		<property name="salesforceMetadataCache" value="Reuse"/>
+		<property name="resultsPathDisposition" value="Increment"/>
+		<property name="testOutputLevel" value="INFO"/>
+		<property name="webBrowserType" value="Chrome"/>
+		<property name="resultsPath" value="../ANT/Results"/>
+		<property name="webBrowserConfiguration" value="Full Screen"/>
+		<property name="projectCachePath" value="C:\Users\aswini.samal\Provar\Workspace15\SSOCOnnection\ANT\..\.provarCaches"/>
+	</properties>
+	<testcase classname="tests/Test Case 1.testcase" name="Test Case 1.testcase" time="0.03">
+		<failure message="Execution failed"><![CDATA[Deliberate Fail]]></failure>
+	</testcase>
+	<testcase classname="tests/Test Case 2.testcase" name="Test Case 2.testcase" time="8.779">
+	</testcase>
+</testsuite>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testItems>
+<apiCall apiId="com.provar.plugins.forcedotcom.core.testapis.ApexUpdateObject" name="ApexUpdateObject" parameterGeneratorUri="command:com.provar.plugins.forcedotcom.ui.commands.UpdateCustomObjectTestStepCommand" testItemId="2066" title="Update Object: Property__c = {OpportunityRows.Related_Property__c}">
+<arguments>
+<argument id="objectType">
+<value class="value" valueClass="string">Property__c</value>
+</argument>
+<argument id="resultName">
+<value class="value" valueClass="string">PropertyUpdated</value>
+</argument>
+<argument id="apexConnectionName">
+<value class="value" valueClass="string">AMER_TestAutomation1</value>
+</argument>
+<argument id="objectId">
+<value class="variable">
+<path element="OpportunityRows"/>
+<path element="Related_Property__c"/>
+</value>
+</argument>
+<argument id="assignmentRuleId"/>
+<argument id="resultScope">
+<value class="value" valueClass="string">Test</value>
+</argument>
+<argument id="Net_Rentable_Area__c">
+<value class="funcCall" id="UniqueId">
+<argument id="length">
+<value class="value" valueClass="decimal">4</value>
+</argument>
+<argument id="format">
+<value class="variable">
+<path element="NUMERIC"/>
+</value>
+</argument>
+</value>
+</argument>
+<argument id="Gross_Net_Rentable_Area__c">
+<value class="value" valueClass="string">Gross</value>
+</argument>
+</arguments>
+<parameterGeneratorProperties>
+<propertyValue name="com.provar.plugins.forcedotcom.ui.commands.UpdateCustomObjectTestStepCommand.ConnectionName">ADMIN</propertyValue>
+<propertyValue name="com.provar.plugins.forcedotcom.ui.commands.UpdateCustomObjectTestStepCommand.CustomObjectName">Property__c</propertyValue>
+</parameterGeneratorProperties>
+<generatedParameters>
+<apiParam group="fields" modelBinding="sf:ui:binding:object?object=Property__c&field=Net_Rentable_Area__c" name="Net_Rentable_Area__c" title="Net_Rentable_Area__c"/>
+<apiParam group="fields" modelBinding="sf:ui:binding:object?object=Property__c&field=Gross_Net_Rentable_Area__c" name="Gross_Net_Rentable_Area__c" title="Gross_Net_Rentable_Area__c"/>
+</generatedParameters>
+</apiCall>
+</testItems>

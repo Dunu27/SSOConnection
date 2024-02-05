@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<style>
+
+			body {
+				font-family: sans-serif;
+			}
+
+			.TestCaseImplTitle {
+				color: blue;
+				font: 0.85em arial;
+				font-weight: bold;
+			}
+
+			.TestCaseImpl .TestItemTitle {
+				color: blue;
+				border-top: 2px solid blue;
+				border-bottom: 2px solid blue;
+				margin-bottom: 0.5em;
+			}
+
+			.TestCaseImpl .TestItemOutcome {
+				border-top: 2px solid blue;
+				border-bottom: 2px solid blue;
+			}
+
+			.ApiCallImpl .TestItemTitle{
+				color: blue;
+				border-top: 1px solid blue;
+				border-bottom: 1px solid blue;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				margin-top: 0.25em;
+				margin-bottom: 0.25em;
+			}
+
+			.ApiCallImpl .TestItemOutcome {
+				border-top: 1px solid blue;
+				border-bottom: 1px solid blue;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				margin-top: 0.25em;
+			}
+
+			.TestItemOutcome {
+				padding-left: 20px;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				clear: both;
+			}
+			
+			.TestItemOutcome.Successful {
+				color: green;
+				background: url('../../successful_16x16.gif') no-repeat 0 0.15em;
+			}
+
+			.TestItemOutcome.Failed {
+				color: red;
+				background: url('../../failed_16x16.gif') no-repeat 0 0.15em;
+				font-weight: bold;
+			}
+
+			.TestItemOutcome.Skipped {
+				color: orange;
+				background: url('../../skipped_16x16.gif') no-repeat 0 0.15em;
+			}
+
+			.TestOutput {
+				font: 0.9em arial;
+				color: black;
+				margin-top: 0.15em;
+				margin-bottom: 0.15em;
+			}
+
+			.TestOutput.err {
+				font-weight: bold;
+				color: red;
+			}
+
+			.TestOutput.war {
+				font-weight: bold;
+				color: orange;
+			}
+
+			.ApiCallImpl{
+				margin-left: 1em;
+				margin-bottom: 0.4em;
+			}
+
+			.TestCaseCallImpl{
+				margin-left: 1em;
+				margin-bottom: 0.4em;
+			}
+			
+		</style>
+	</head>
+	<body><div id='detail-body'>
+	<div style='float: right;'><img src='../..//provar_logo_400x100.png' height='50'/></div>
+<h2><img src='../..//testcase_16x16.png' style='height: 24; padding-top: 4px;'/> Test Case 1.testcase</h2>
+<div class='TestCaseImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>11:30:03 (00:00.000)</span></div>Start of Test Case Test Case 1.testcase</div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>11:30:03 (00:00.040)</span></div>Start of Test Step UI Connect: GoogleConnection</div><div class='TestOutput inf'>Opening Selenium Connection.  Connection Name: GoogleConnection, Base URL: https://customerprofile.qas.invisalign.com/, Private Browsing Mode: false</div><div class='TestOutput inf'>Opening Chrome webdriver instance to https://customerprofile.qas.invisalign.com/</div><div class='TestOutput off'>Successfully opened Chrome webdriver to https://customerprofile.qas.invisalign.com/</div><div class='TestOutput inf'>Selenium Connection opened successfully.</div><div class='TestOutput inf'>Creating page object.  class: class pageobjects.SSOFile</div><div class='TestOutput inf'>Calling doLogin()</div><div class='TestOutput inf'>End of SSO connect thread</div><div class='TestOutput sev'>UI Connect step is failed</div><div class='TestOutput sev'>[Exception: [NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='email']"}&lt;br/&gt;  (Session info: chrome=120.0.6099.110)&lt;br/&gt;  (Driver info: chromedriver=119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}),platform=Windows NT 10.0.22621 x86_64) (WARNING: The server did not provide any stacktrace information)&lt;br/&gt;Command duration or timeout: 64 milliseconds&lt;br/&gt;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&lt;br/&gt;Build info: version: 'unknown', revision: 'unknown', time: 'unknown'&lt;br/&gt;System info: host: 'IBM-ASWINSAMAL', ip: '192.168.1.60', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'&lt;br/&gt;Driver info: org.openqa.selenium.chrome.ChromeDriver$$EnhancerByCGLIB$$dace278c&lt;br/&gt;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61605}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, fedcm:accounts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}), userDataDir=C:\Users\aswini.samal\Provar\Workspace15\.provarCaches\.chromeProfiles\profile0}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=120.0.6099.110, browserConnectionEnabled=false, proxy=Proxy(direct), nativeEvents=true, webauthn:extension:minPinLength=true, webauthn:extension:prf=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&lt;br/&gt;Session ID: 73a8583514467c05f7f9659fd64872da&lt;br/&gt;*** Element info: {Using=xpath, value=//input[@type='email']}]]</div><div class='TestItemOutcome Failed'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>11:30:13 (00:10.401)</span></div>Test Step failed.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step Set Values: DUnu.Status SKIPPED</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step Write: {DUnu.TestCaseName}=&gt;C:\\Users\\aswini.samal\\Downloads\\Untitled spreadsheet (1).xlsx SKIPPED</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step DB Insert: DbConnection.=&gt;DbResults SKIPPED</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step Fail Test: Deliberate Fail SKIPPED</div></div><div class='TestItemOutcome Failed'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>11:30:13 (00:10.410)</span></div>Test Case failed.</div></div><div class='TestOutput inf'>Handling managed resource.  Name: GoogleConnection</div><div class='TestOutput off'>Selenium Connection handled successfully.  Name: GoogleConnection</div>
+	</div></body>
+</html>

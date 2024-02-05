@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<style>
+
+			body {
+				font-family: sans-serif;
+			}
+
+			.TestCaseImplTitle {
+				color: blue;
+				font: 0.85em arial;
+				font-weight: bold;
+			}
+
+			.TestCaseImpl .TestItemTitle {
+				color: blue;
+				border-top: 2px solid blue;
+				border-bottom: 2px solid blue;
+				margin-bottom: 0.5em;
+			}
+
+			.TestCaseImpl .TestItemOutcome {
+				border-top: 2px solid blue;
+				border-bottom: 2px solid blue;
+			}
+
+			.ApiCallImpl .TestItemTitle{
+				color: blue;
+				border-top: 1px solid blue;
+				border-bottom: 1px solid blue;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				margin-top: 0.25em;
+				margin-bottom: 0.25em;
+			}
+
+			.ApiCallImpl .TestItemOutcome {
+				border-top: 1px solid blue;
+				border-bottom: 1px solid blue;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				margin-top: 0.25em;
+			}
+
+			.TestItemOutcome {
+				padding-left: 20px;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				clear: both;
+			}
+			
+			.TestItemOutcome.Successful {
+				color: green;
+				background: url('../../successful_16x16.gif') no-repeat 0 0.15em;
+			}
+
+			.TestItemOutcome.Failed {
+				color: red;
+				background: url('../../failed_16x16.gif') no-repeat 0 0.15em;
+				font-weight: bold;
+			}
+
+			.TestItemOutcome.Skipped {
+				color: orange;
+				background: url('../../skipped_16x16.gif') no-repeat 0 0.15em;
+			}
+
+			.TestOutput {
+				font: 0.9em arial;
+				color: black;
+				margin-top: 0.15em;
+				margin-bottom: 0.15em;
+			}
+
+			.TestOutput.err {
+				font-weight: bold;
+				color: red;
+			}
+
+			.TestOutput.war {
+				font-weight: bold;
+				color: orange;
+			}
+
+			.ApiCallImpl{
+				margin-left: 1em;
+				margin-bottom: 0.4em;
+			}
+
+			.TestCaseCallImpl{
+				margin-left: 1em;
+				margin-bottom: 0.4em;
+			}
+			
+		</style>
+	</head>
+	<body><div id='detail-body'>
+	<div style='float: right;'><img src='../..//provar_logo_400x100.png' height='50'/></div>
+<h2><img src='../..//testcase_16x16.png' style='height: 24; padding-top: 4px;'/> Test Case 2.testcase</h2>
+<div class='TestCaseImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>14:59:45 (00:00.000)</span></div>Start of Test Case Test Case 2.testcase</div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>14:59:45 (00:00.005)</span></div>Start of Test Step UI Connect: Frame</div><div class='TestOutput inf'>Opening Selenium Connection.  Connection Name: Frame, Base URL: https://chercher.tech/practice/frames-example-selenium-webdriver, Private Browsing Mode: false</div><div class='TestOutput inf'>Opening Chrome webdriver instance to https://chercher.tech/practice/frames-example-selenium-webdriver</div><div class='TestOutput off'>Successfully opened Chrome webdriver to https://chercher.tech/practice/frames-example-selenium-webdriver</div><div class='TestOutput inf'>Selenium Connection opened successfully.</div><div class='TestOutput inf'>UI Connect step is success</div><div class='TestOutput off'>UI Connect step is success</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>14:59:48 (00:03.074)</span></div>Test Step successful.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>14:59:48 (00:03.074)</span></div>Start of Test Step On My Page Object page</div><div class='TestOutput inf'>Start of With Screen.  Connection Name: Frame, target: ui:pageobject:target?pageId=pageobjects.MyPageObject</div><div class='TestOutput inf'>Navigating because Navigate=IfNeccessary and the new URL doesn't match the current one.  Current URL: chrome://new-tab-page/, new URL: https://chercher.tech/practice/frames-example-selenium-webdriver</div><div class='TestOutput inf'>Navigating to URL: https://chercher.tech/practice/frames-example-selenium-webdriver</div><div class='TestOutput inf'>Opening Page context.  Name: screen, data: pageobjects.MyPageObject@5d4e2f9b, frame: null</div><div class='TestOutput inf'>Going to update browser window handles.</div><div class='TestOutput off'>Successfully updated browser window handles.</div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>14:59:50 (00:04.770)</span></div>Start of Test Step Check the Username</div><div class='TestOutput inf'>Start of Interact.  Connection: Frame, Locator: ui:pageobject:field?field=frame.innerframe.username&pageId=pageobjects.MyPageObject, before wait: null, after wait: null, auto retry: default</div><div class='TestOutput inf'>Locator: ui:pageobject:field?field=frame.innerframe.username&pageId=pageobjects.MyPageObject</div><div class='TestOutput inf'>Interaction: ui:interaction?name=check</div><div class='TestOutput inf'>Switched focus to main window.  URL: https://chercher.tech/practice/frames-example-selenium-webdriver</div><div class='TestOutput inf'>Doing sleep for chrome versions frame wait issue</div><div class='TestOutput inf'>Switched focus to frame.  Window: main, Selector: [org.openqa.selenium.remote.RemoteWebElement@979975fb -&gt; unknown locator], URL: https://chercher.tech/practice/frames1.html</div><div class='TestOutput inf'>Switched focus to frame.  Window: main, Selector: [org.openqa.selenium.remote.RemoteWebElement@2c91af4f -&gt; unknown locator], URL: https://chercher.tech/practice/checkbox.html</div><div class='TestOutput inf'>Doing before wait.  waitUrl: default</div><div class='TestOutput inf'>End of &lt;default&gt; wait.</div><div class='TestOutput inf'>Switched focus to frame.  Window: main, Selector: [org.openqa.selenium.remote.RemoteWebElement@2c91af4f -&gt; unknown locator], URL: https://chercher.tech/practice/checkbox.html</div><div class='TestOutput inf'>Doing after wait.  waitUrl: default</div><div class='TestOutput inf'>Got webElement.  tagName: INPUT, id: a, type: checkbox, selector: null</div><div class='TestOutput inf'>Hover&gt;Clicking WebElement.  WebElement [tag: input, text: on]</div><div class='TestOutput inf'>Doing after wait.  waitUrl: default</div><div class='TestOutput inf'>End of &lt;default&gt; wait.</div><div class='TestOutput inf'>Going to update browser window handles.</div><div class='TestOutput off'>Successfully updated browser window handles.</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>14:59:54 (00:08.615)</span></div>Test Step successful.</div></div><div class='TestOutput inf'>All Sub-Test Steps were successful.</div><div class='TestOutput inf'>Closing Page context.  Name: screen, data: null, frame: null</div><div class='TestOutput inf'>Main window reselected.  Window: main</div><div class='TestOutput inf'>Going to update browser window handles.</div><div class='TestOutput off'>Successfully updated browser window handles.</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>14:59:54 (00:08.779)</span></div>Test Step successful.</div></div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>14:59:54 (00:08.779)</span></div>Test Case successful.</div></div><div class='TestOutput inf'>Handling managed resource.  Name: Frame</div><div class='TestOutput off'>Selenium Connection handled successfully.  Name: Frame</div>
+	</div></body>
+</html>

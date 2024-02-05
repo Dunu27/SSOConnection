@@ -1,0 +1,4 @@
+run id, started, ended, path, name, successful, skipped, failed, total, failure Message
+1,2024-02-05 11:31:28.090,2024-02-05 11:31:35.501,C:\Users\aswini.samal\Provar\Workspace15\SSOCOnnection\tests,Test Case 1.testcase,0,0,1,,UI Connect step is failed
+1,2024-02-05 11:31:39.491,2024-02-05 11:31:47.581,C:\Users\aswini.samal\Provar\Workspace15\SSOCOnnection\tests,Test Case 2.testcase,1,0,0,,
+Summary,2024-02-05 11:31:28.090,2024-02-05 11:31:48.645,,,1,0,1,2
